@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto+Mono:wght@200&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:aliceblue;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    background-color: #fff;
+    height: 400px;
+    width: 600px;
+    border-radius: 25px;
+    padding:10px ;
+    position: relative;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    
+   
+
+}
+main h1{
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+main button{
+    position: relative;
+    margin-left: 50%;
+    right: 25px;
+    height: 30px;
+    padding: 2px;
+    background-color: royalblue;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    
+    
+
+}
+.quotedisplay{
+
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-size: larger;
+margin: 30px;
+padding: 10px;
+}
+
+main .foot{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Mono', monospace;
+padding: 10px;
+position: absolute;
+text-align: center;
+top: 90%;
+left: 22%;
+
+
+
+}
